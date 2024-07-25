@@ -1,0 +1,895 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+.nav-container{
+    display: flex;
+    gap: 50px;
+}
+
+.nav-left{
+    width: 100%;
+    padding-left: 70px;
+}
+.nav-right{
+    width: 100%;
+    align-items: center;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+}
+
+
+
+.nav-item a{
+    text-decoration: none;
+    padding: 20px;
+    color: rgba(31, 21, 52, 1);
+    
+}
+
+.nav-bar{
+    display: flex;
+    width: 100%;
+    padding: 20px 50px 30px 50px;
+    align-items: center;
+}
+
+#nav-icon{
+    display: none;
+}
+
+
+
+
+.virtual{
+    padding-left: 130px;
+    padding-top: 50px;
+}
+
+.affordable{
+    padding-left:130px;
+    padding-top: 20px;
+    opacity: 40%;
+    font-family:"Mulish", sans-serif ;
+    font-size: 21px;
+}
+.consult{
+    padding-left: 130px;
+    padding-top: 50px;
+    border-radius: 20px;
+    width: 100%;
+
+}
+
+.consult a{
+    text-decoration: none;
+    border: 2px solid rgba(69, 143, 246, 1);
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: rgba(69, 143, 246, 1);
+    color: white;
+
+}
+.first-col{
+    width: 100%;
+}
+.box-container{
+    display: flex;
+    width: 100%;
+}
+
+.second-col{
+    width: 100%;
+}
+.image-container{
+    padding-left: 30px;
+    width: 100%;
+}
+
+.image{
+    width: 100%;
+}
+
+
+@media (max-width: 600px){
+
+    .nav-left{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .nav-bar{
+        padding:20px;
+    }
+    
+    .nav-right{
+        display: none;
+        width: 100%;
+    }
+    #nav-icon{
+        display: block;
+    }
+    .box-container{
+        flex-direction: column;
+    }
+    .image-container{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .image{
+        width: 100%;
+    }
+    .first-col{
+        width: 100%;
+    }
+    .second-col{
+        width: 100%;
+    }
+    .virtual, .affordable, .consult{
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    .element{
+        display: none;
+    }
+    .affordable{
+        font-size: 15px;
+
+    }
+
+    .png-container{
+        width: 100%;
+    }
+    .vec{
+        width: 100%;
+    }
+    section .grid-container{ /* Create another grid and move them on small screen*/
+        width: 100%;
+        top: 850px;
+        left: 10px;
+        grid-template-columns: repeat(2, 2fr);
+       
+        
+    }
+
+    div .grid-items{ /* to style the png image in small screen*/
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-left: 5px;
+        height: 150px;
+        width: 120px;
+        border: 2px solid blueviolet;
+        margin-top: 10px;
+        
+     }
+     .fpng{ /* to resize the png*/
+        width: 25px;
+        height: 25px;
+     }
+     .text-title{ /* to resize the text*/
+        font-size: 10px;
+        padding-top:1px ;
+        padding-bottom: 1px;
+     }
+    
+     .image-description{ 
+        font-size: 7px;
+     }
+
+     section .btn{ /* to style the btn on small screen size/move*/
+        width: 100px;
+        margin-top: 100px;
+       margin-left: 180px;
+        background-color: white;
+        height: 40px;
+     }
+      /* to hide element1 so as to stop the screen from over flowing*/
+     .ele{
+        display: none;
+     }
+
+     .section3{
+        width: 100%;
+        flex-direction: column;
+
+        
+     }
+     .first-cols{
+        width: 100%;
+        
+         
+     }
+     .second-cols{
+        width: 100%;
+     }
+     .element2{
+        display: none;
+     }
+
+      section .trafa02{
+         width: 230px;
+         top: 1520px;
+         position: absolute;
+         height: 230px;
+         left: 20px;
+         
+         
+          
+     }
+
+
+     section .leading{
+        font-size: 8px;
+        padding-left: 250px;
+        padding-top: 60px;
+        line-height: 20px;
+     }
+
+     section .line2{
+        margin-left: 250px;
+     }
+
+     section .deliver{
+        padding-left: 250px;
+        font-size: 7px;
+        padding-top: 5px;
+        line-height: 12px;
+     }
+
+     section .btn2{
+        margin-left: 250px;
+        height: 20px;
+        font-size: 5px;
+        width: 120px;
+        margin-top: 15px;
+        border-radius: 20px;
+     }
+     .first-colu{
+        width: 100%;
+     }
+
+     .second-colu{
+        width: 100%;
+     }
+
+    .section4{
+        width: 100%;
+        
+    }
+     section .trafa-con{
+        width: 250px;
+        height: 350px;
+        
+    }
+
+   .trafa-container{
+    width: 100%;
+   }
+
+    section .dwn-app{
+        padding-left: 10px;
+        font-size: 10px;
+        line-height: 25px;
+    }
+
+    section .line3{
+        margin-left: 10px;
+    }
+    section .engagement-app{
+        padding-left: 10px;
+        font-size: 7px;
+        line-height: 15px;
+    }
+
+    section .dwn3{
+        margin-top: 50px;
+        margin-left: 10px;
+        width: 120px;
+        height: 30px;
+        text-align: center;
+        padding-top: 5px;
+        color:rgba(69, 143, 246, 1); ;
+        font-size: 8px;
+        margin-bottom: 20px;
+    }
+
+     section .section5{
+        margin-top: 30px;
+        border-radius: 20px;
+        
+        
+    }
+    .customer-sucess{
+        width: 100%;
+    }
+     section .title-head{
+        font-size: 10px;
+     }
+     section .line4{
+        margin-left: 150px;
+        margin-top: 20px;
+     }
+
+     section .card-box{
+        width: 100%;
+        
+     }
+
+     .image-con{
+        width: 100%;
+     }
+     section .image-1{
+        margin-left: 50px;
+        width: 50px;
+        margin-top: 20px;
+     }
+
+     section .name1{
+        margin-left: 110px;
+        top: 2275px;
+        position: absolute;
+        font-size: 8px;
+        
+        
+     }
+
+     section .founder{
+        position: absolute;
+        top:2285px ;
+        margin-left: 110px;
+        font-size: 8px;
+        
+     }
+    
+      section .dedicated-app{
+        position: absolute;
+        top: 2220px;
+        margin-left: 200px;
+        font-size: 7px;
+        line-height: 7px;
+      }
+
+      section .arrow-nav{
+       position: absolute;
+        top: 2340px;
+        width:150px;
+        margin-left: 100px;
+    }
+
+    section .article1{
+        font-size: 8px;
+    }
+    section .line5{
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+    section .vector3{
+        width: 170px;
+        margin-left: 100px;
+        top: 2520px;
+        position: absolute;
+    }
+
+    section .element3{
+        width: 100px;
+    }
+
+   section .grid-container2{
+    width: 100%;
+    position: absolute;
+    top: 2520px;
+    left: 5px;
+    gap: 10px;
+   }
+   section .checkup, .natural, .facial{
+    width: 100px;
+    
+   }
+   section .article01{
+    font-size: 7px;
+    line-height: 10px;
+    padding-left: 2px;
+   }
+ section .detection{
+    font-size: 8px;
+    line-height: 10px;
+    padding-left: 2px;
+}
+ section .read{
+    font-size: 8px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+ section .arrow01{
+    position: absolute;
+    top: 180px;
+    padding-left: 65px;
+   }
+
+   section .view{
+    margin-left: 90px;
+    width: 120px;
+    height: 30px;
+    top: 2750px;
+    position: absolute;
+    text-align: center;
+    padding-top: 5px;
+   }
+
+   /* t-footer  styling for small screen*/
+   section .general-box{
+    width:400px ;
+    height: 200px;
+    top:2635px ;
+    position: absolute;
+   }
+
+   section .ellipse{
+    margin-left: 10px;
+    margin-top: 50px;
+   }
+   section .t-png{
+    position: absolute;
+    top: 65px;
+    margin-left: 23px;
+    width: 15px;
+   }
+     section .trafalgar33{
+        position: absolute;
+        top: 65px;
+        margin-left: 58px ;
+        width: 70px;
+     }
+     section .note{
+        font-size: 7px;
+        margin-left: 10px;
+        line-height: 15px;
+     }
+     section .copy-right{
+        font-size: 7px;
+        margin-left: 10px;
+        position: absolute;
+        top:90px ;
+     }
+
+     section .descriptive{
+        font-size: 7px;
+     }
+
+     section .d-list{
+        font-size: 7px;
+        line-height: 15px;
+     }
+
+     section .grid-container3{
+        position: absolute;
+        top: 65px;
+        left: 180px;
+        gap: 40px;
+     }
+     
+     section .element003{
+        position: absolute;
+        top: 165px;
+        width: 37px;
+        
+     }
+
+    }
+  
+    
+    
+    
+    .line1{
+    border-style: 15px;
+    border-color: rgba(0, 0, 0, 1);
+    height: 1px;
+    width: 48px;
+    margin: 3% 0 4% 48%;
+  }
+
+  .Service-container{
+    text-align: center;
+    
+  }
+.pele{
+    width: 100%;
+    display: flex;
+}
+  .Vector{
+    padding-top: 30px;
+    
+}
+.ele-png{
+    /* used to move the left side element*/
+    margin-left: 500px; 
+    margin-top: 500px;
+}
+
+/* to the image be in a row and column form*/
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    position: absolute;
+    top: 1050px;
+    left: 270px;
+    
+}
+/* to style the gride items*/
+.grid-items{
+ border: 2px solid rgba(229, 233, 246, 0.4);
+ width: 350px;
+ height: 354px;
+ border-radius: 20px;
+ padding-top:60px ;
+ padding-left: 30px;
+ margin-top: 50px;
+ margin-left: 30px;
+ background-color: rgba(255, 255, 255, 1);
+}
+/* to create space*/
+.text-title{
+    line-height: 56px ;
+}
+
+.image-description{
+opacity: 40%;
+}
+
+.btn{
+    border-radius: 55px;
+    width: 200px;
+    height: 60px;
+    border: 2px solid rgba(69, 143, 246, 1);
+    margin-top: 350px;
+    margin-left: 770px;
+    color: rgba(69, 143, 246, 1);
+    background-color: white;
+}
+
+  /* section3 styling */
+.section3{
+    width: 100%;
+    display: flex;
+}
+
+.first-cols{
+    width: 100%;
+    padding-left: 270px;
+    margin-top:50px ;
+}
+
+.img-container{
+    width: 100%;
+}
+
+.second-cols{
+    width: 100%;
+}
+
+.leading{
+    padding-left: 120px;
+    padding-top: 80px;
+    line-height: 56px;
+    font-size: 26px;
+}
+
+.deliver{
+    padding-top: 15px;
+    padding-left: 120px;
+    opacity: 40%;
+    line-height: 30px;
+}
+
+.line2{
+    border-style: 15px;
+    height: 2px;
+    width: 56px;
+    margin: 3% 0% 4% 0%;
+    border-color: black;
+    margin-left: 120px;
+
+}
+
+.btn2{
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    margin-left: 120px;
+    border: 2px solid rgba(69, 143, 246, 1);
+    color: rgba(69, 143, 246, 1);
+    background-color: white;
+
+}
+
+.element2{
+    padding-top: 80px;
+    padding-left: 450px;
+}
+/* section4 styling */
+.section4{
+    width: 100%;
+    display: flex;
+}
+
+.first-colu{
+    width: 100%;
+}
+
+.second-colu{
+    width: 100%;
+}
+
+.dwn-app{
+    padding-left: 370px;
+    line-height: 48px;
+    font-size: 27px;
+    padding-top: 110px;
+}
+
+.line3{
+    border-style: 15px;
+    height: 2px;
+    width: 48px;
+    border-color: black;
+    margin-left: 370px;
+    margin-top: 30px;
+}
+
+.engagement-app{
+    padding-left: 370px;
+    padding-top: 40px;
+    line-height:30px ;
+    opacity: 40%;
+}
+
+.dwn3{
+    border: 2px solid rgba(69, 143, 246, 1);;
+    width: 200px;
+    height: 60px;
+    border-radius: 55px;
+    background-color: white;
+    color: 2px solid rgba(69, 143, 246, 1);
+    margin-left:370px ;
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.trafa-con{
+    padding-left: 30px;
+    padding-top: 100px;
+}
+.dwn-con{
+    width: 100%;
+}
+
+.trafa-container{
+    width: 100%;
+}
+
+/* section5 styling */
+.section5{
+    width: 100%;
+    border: 2px solid rgba(103, 195, 243, 1);
+    background-color: rgba(103, 195, 243, 1);
+    padding-bottom: 40px;
+    border-radius: 55px;
+    
+}
+
+.customer-sucess{
+width: 100%;
+}
+
+.title-head{
+    text-align: center;
+    font-size: 26px;
+    padding-top: 30px;
+    color: white;
+}
+.line4{
+border-style: 15px;
+    height: 2px;
+    width: 48px;
+    border-color: white;
+    margin-left: 670px;
+    margin-top: 30px;
+}
+
+.card-box{
+    width: 100%;
+    
+}
+
+.image-1{
+    margin-left: 400px;
+    margin-top: 60px;
+    border-radius: 60px;
+}
+
+.name1{
+    margin-left: 550px;
+    top: 3400px;
+    position: absolute;
+    color: white;
+}
+.founder{
+    margin-left: 550px;
+    top: 3440px;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.dedicated-app{
+    margin-left: 880px;
+    position: absolute;
+    top: 3330px;
+    line-height: 27px;
+    padding-top: 50px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.arrow-nav{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+.article1{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.line5{
+    border-style: 15px;
+    height: 2px;
+    width: 48px;
+    border-color: black;
+    margin-left: 695px;
+    margin-top: 30px; 
+}
+/* section6 styling */
+.section6{
+    width: 100%;
+}
+
+.vector3{
+    margin-left: 1000px;
+}
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    position: absolute;
+    top: 3800px;
+    left: 100px;
+    gap: 100px;
+}
+
+.article01{
+    padding-left: 25px;
+    line-height: 22px;
+}
+
+.detection{
+    padding-left: 25px;
+    padding-top: 15px;
+    line-height: 27px;
+    color: rgba(125, 121, 135, 1);
+}
+
+.read{
+    padding-left: 25px;
+    padding-top: 50px;
+    color: rgba(64, 137, 237, 1);
+}
+
+.arrow01{
+    position: absolute;
+    padding-left: 120px;
+    top: 442px;
+}
+
+.grid-items2{
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 20px;
+}
+
+.view{
+    border: 2px solid rgba(69, 143, 246, 1);
+    padding: 10px 20px;
+    border-radius: 22px;
+   color: rgba(69, 143, 246, 1);
+    text-align: center;
+    margin-left: 600px;
+    width:200px;
+    height: 50px;
+    background-color: white;
+   
+}
+
+.ell{
+    width: 100%;
+}
+
+.ellipse{
+    
+    margin-top: 95px;
+    margin-left: 180px;
+}
+
+.tpng{
+    width: 100%;
+}
+.t-png{
+    margin-left:190px;
+    position: absolute;
+    top:4720px ;
+}
+
+.trafa-33{
+    width: 100%;
+}
+
+.trafalgar33{
+    margin-left: 230px;
+    position: absolute;
+    top:4720px ;
+}
+
+.note{
+    margin-left: 190px;
+    padding-top: 10px;
+    line-height:25px ;
+    color: rgba(255, 255, 255, 1);
+    opacity: 80%;
+}
+.copy-right{
+    margin-left:190px ;
+    padding-top: 70px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 80%;
+}
+
+.grid-container3{
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    gap: 85px;
+    position: absolute;
+    left: 700px;
+    top: 4720px;
+}
+
+.grid-items3{
+    width: 100%;
+    
+}
+
+.d-list{
+    line-height: 50px;
+    color: rgba(255, 255, 255, 1);
+    opacity: 80%;
+}
+
+.general-box{
+    border: 2px solid rgba(103, 195, 243, 1);
+    width: 1450px;
+    height: 400px;
+    margin-top: 200px;
+    background-color: rgba(103, 195, 243, 1); 
+}
+
+.descriptive{
+    color: rgba(255, 255, 255, 1);
+}
+.element003{
+    position: absolute;
+    top: 4900px;
+}
